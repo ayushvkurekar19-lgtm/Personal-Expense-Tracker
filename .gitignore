@@ -1,0 +1,26 @@
+CLEAR
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local database and exported data
+expenses.db
+*.sqlite
+*.sqlite3
+expenses.csv
+
+# Secrets and environment files
+.env
+.env.*
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Project evidence folder: keep folder, ignore contents until screenshots are added
+screenshots/*
+!screenshots/.gitkeep
